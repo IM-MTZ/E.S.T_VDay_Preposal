@@ -7,7 +7,6 @@ if (document.getElementById('submitDate')) {
             // Redirect to the main content page
             window.location.href = 'main.html';
         } else {
-            // Show error message
             errorMessage.style.display = 'block';
         }
     });
@@ -44,7 +43,7 @@ if (surpriseVideo) {
 const yesButton = document.getElementById('yesButton');
 if (yesButton) {
     yesButton.addEventListener('click', () => {
-        alert('YAY! You made the right choice❤️! I hope you enjoyed the virtual surprise! Once you see me next, I\'ll have a more physcial surprise ready for you! Also, I have plans for the 14th for us but wanted to gather your thoughts first before we finalize anything. That way we can both be on the same page! Love you lots!');
+        alert('YAY! You made the right choice! I hope you enjoyed the virtual surprise! Once you see me next, I\'ll have a more physcial surprise ready for you! Also, I have plans for the 14th for us but wanted to gather your thoughts first before we finalize anything. That way we can both be on the same page! Love you lots!');
     });
 }
 
